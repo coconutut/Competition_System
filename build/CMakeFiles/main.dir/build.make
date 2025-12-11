@@ -71,11 +71,26 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
+CMakeFiles/main.dir/src/Person.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Person.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Person.cpp.obj: C:/Users/Song\ Haojie/Desktop/cmake_project/Competition_System/src/Person.cpp
+CMakeFiles/main.dir/src/Person.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/Person.cpp.obj"
+	"E:\Programs Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Person.cpp.obj -MF CMakeFiles\main.dir\src\Person.cpp.obj.d -o CMakeFiles\main.dir\src\Person.cpp.obj -c "C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\src\Person.cpp"
+
+CMakeFiles/main.dir/src/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Person.cpp.i"
+	"E:\Programs Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\src\Person.cpp" > CMakeFiles\main.dir\src\Person.cpp.i
+
+CMakeFiles/main.dir/src/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Person.cpp.s"
+	"E:\Programs Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\src\Person.cpp" -o CMakeFiles\main.dir\src\Person.cpp.s
+
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/Song\ Haojie/Desktop/cmake_project/Competition_System/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
 	"E:\Programs Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c "C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\src\main.cpp"
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
@@ -90,7 +105,7 @@ CMakeFiles/main.dir/src/system_manager.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/system_manager.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/system_manager.cpp.obj: C:/Users/Song\ Haojie/Desktop/cmake_project/Competition_System/src/system_manager.cpp
 CMakeFiles/main.dir/src/system_manager.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/system_manager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/system_manager.cpp.obj"
 	"E:\Programs Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/system_manager.cpp.obj -MF CMakeFiles\main.dir\src\system_manager.cpp.obj.d -o CMakeFiles\main.dir\src\system_manager.cpp.obj -c "C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\src\system_manager.cpp"
 
 CMakeFiles/main.dir/src/system_manager.cpp.i: cmake_force
@@ -103,19 +118,21 @@ CMakeFiles/main.dir/src/system_manager.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/src/Person.cpp.obj" \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
 "CMakeFiles/main.dir/src/system_manager.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main.exe: CMakeFiles/main.dir/src/Person.cpp.obj
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/system_manager.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Song Haojie\Desktop\cmake_project\Competition_System\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

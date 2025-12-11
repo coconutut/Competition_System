@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/build",
+  "command": "\"E:\\Programs Files\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\Person.cpp.obj -c \"C:\\Users\\Song Haojie\\Desktop\\cmake_project\\Competition_System\\src\\Person.cpp\"",
+  "file": "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/src/Person.cpp",
+  "output": "CMakeFiles/main.dir/src/Person.cpp.obj"
+},
+{
+  "directory": "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/build",
   "command": "\"E:\\Programs Files\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\Song Haojie\\Desktop\\cmake_project\\Competition_System\\src\\main.cpp\"",
   "file": "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"

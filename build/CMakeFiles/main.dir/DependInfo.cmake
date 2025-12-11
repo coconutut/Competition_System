@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/src/Person.cpp" "CMakeFiles/main.dir/src/Person.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Person.cpp.obj.d"
   "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   "C:/Users/Song Haojie/Desktop/cmake_project/Competition_System/src/system_manager.cpp" "CMakeFiles/main.dir/src/system_manager.cpp.obj" "gcc" "CMakeFiles/main.dir/src/system_manager.cpp.obj.d"
   )
